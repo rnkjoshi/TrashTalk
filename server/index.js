@@ -5,6 +5,8 @@ const port = process.env.port || 5000;
 const app = express();
 const router = require("./router")
 const server = HTTP.createServer(app);
+const cors = require("cors")
+app.use(cors());
 const io = socketio(server);
 const {addUser,removeUser,getUser,getUserInRoom} = require("./users")
 io.on('connection',(socket)=>{

@@ -17,6 +17,15 @@ const Message = ({message:{text,user},name}) => {
             </div>
         </div>
         ):
+        (user==="admin")?
+        (
+            <div className="messageContainer justifyCenter">
+                {/* <p className="sentText pr-10">{user}</p> */}
+                <div className="messageBox noBackground">
+                    <p className="messageText colorGray">{ReactEmoji.emojify(text)}</p>
+                </div>
+            </div>
+        ):
         (
             <div className="messageContainer justifyStart">
             <div className="messageBox backgroundWhite">
