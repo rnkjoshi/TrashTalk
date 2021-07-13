@@ -1,13 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI-LAtest
+name: Production Pipeline
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
     tags: prod-[1-9]+.[0-9]+.[0-9]+
-    branches: master
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
