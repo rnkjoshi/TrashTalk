@@ -6,7 +6,7 @@ name: CI-LAtest
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    tags: test-[1-9]+.[0-9]+.[0-9]+
+    tags: prod-[1-9]+.[0-9]+.[0-9]+
     branches: master
 
   # Allows you to run this workflow manually from the Actions tab
@@ -26,7 +26,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo this is test version!
+        run: echo this is production version!
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
