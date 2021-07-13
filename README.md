@@ -19,4 +19,4 @@ So, this platform is for those type of people. Here they can do whatever trash t
   Back-end is deployed on <i>Heroku</i>
   
   <h1>Demo</h1>
-  <a href="https://rnkjoshi.github.io/trassshtalk/#/">TrasssTalk</a>
+  <a href="https://rnkjoshi.github.io/trassshtalk/#/">TrasssTalk!</a>
